@@ -1,0 +1,36 @@
+:root{
+	--RaisinBlack: #272932;
+	--SteelBlue: #4D7EA8;
+	--GrayWeb: #828489;
+	--HellotropeGray: #9E90A2;
+	--LightSteelBlue: #B6C2D9;
+	--white: #faf0e6;
+}
+
+body{
+	background-color: var(--RaisinBlack);
+}
+
+h1{
+	background-color: var(--GrayWeb);
+	margin: -10px;
+	padding: 10px;
+}
+
+table, th, td{
+	border: 3px Solid black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	color: var(--white);
+}
+
+a{
+	color: var(--white);
+}
+
+a:hover{
+	color: var(--LightSteelBlue);
+	cursor: pointer;
+}
