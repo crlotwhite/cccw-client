@@ -41,14 +41,15 @@
 	<style>
 	
 		:root {
-			--RaisinBlack: #272932;
+			--white: #faf0e6;
+			--LightBlack: #141414; 
 			--LightSteelBlue: #B6C2D9;
 			--SteelBlue: #4D7EA8;
 			--LightBlue: #0db8de;
 		}
 		html, body {
 			height: 100%;
-			background-color: var(--RaisinBlack);
+			background-color: var(--LightBlack);
 		}
 		.global-container {
 			height: 100%;
@@ -99,12 +100,22 @@
 			padding-bottom: 30px;
 			font-family: "Franklin Gothic Medium", sans-serif;
 		}
-		button {
+		a {
+			padding: 6px;
 			background: var(--LightBlue);
 			font-size: 14px;
 			transform: translate(10px);
 			border-radius: 10px;
 			width: 250px;
+			height: 35px;
+			text-decoration: none;
+			color: black;
+			text-align: center;
+			font-family: "Georgia",san-serif;
+		}
+		
+		a:hover{
+			color: white;
 		}
 		
 	</style>
@@ -118,11 +129,11 @@
 				<h1 class="card-title text-center" id="but">CHAT</h1>
 				<div class="card-text">
 					<form>
-						<div class= "text-center">
+						<div class = "text-center">
 							<input type="text" class="text-center" placeholder="Username">
+							
 						</div>
-						<button type="button" onclick="document.getElementById('but').style.color = 'white'">Let's Chat</button>
-						
+							<a type="button" href="interface3BS.html" onclick="document.getElementById('but').style.color = 'white'">Let's Chat</a>
 					</form>
 				</div>
 			</div>
