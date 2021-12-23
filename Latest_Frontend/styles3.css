@@ -18,15 +18,18 @@
 		}
 		
 		h1{
-			font-size: 35px;
+			font-size: 50px;
 			color: var(--white);
 			font-family: 'Courier New';
+			font-style: italic;
 		}
 		
-		table, th, td{
+		.table{
 			font-size: 35px;
-			color: var(--white);
+			color: var(--LightBlue);
 			font-family: 'Courier New';
+			border: 2px solid var(--LightBlue);
+			border-radius: 50px 20px;
 		}
 
 		a{
